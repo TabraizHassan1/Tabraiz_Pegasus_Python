@@ -49,6 +49,11 @@ Then for npm cdk:
 $ npm install -g aws-cdk
 ```
 
-The '.venv'contains python virtual envirnment information. The 'app.py' in the project folder is the 'main' for the sample application. It is the entry point for the app. The code in this file loads an instance of class 'tabraizSprint1stack'  The 'sprint1_stack.py' is a custom CDK stack construct that is to be used in our CDK application.
+The '.venv'contains python virtual envirnment information. The 'app.py' in the project folder is the 'main' for the sample application. It is the entry point for the app. The code in this file loads and instantiates an instance of class "tabraizSprint1Stack" located in the folder sprint1/sprint1_stack.py. The 'sprint1_stack.py' is a custom CDK stack construct that is to be used in our CDK application. It is the main stack. 
+
+
+### Lamda 
+
+We create a resource folder in sprint1 in which we create a file 'hw_labda.py'. In this new file, we create a simple hello world function. We add an import 'aws_lambda as _lambda' in the beginning of 'sprint1_stack.py' file and create a lambda function 'create_lambda()'. 
 
 
