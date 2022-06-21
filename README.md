@@ -65,4 +65,11 @@ To synthesize a CDK app, we use:
 $ cdk synth
 ```
 
-After this command is run, we can see the cloud formation template and we can see our lambda in the file '
+After this command is run, we can see the cloud formation template and we can find our lambda in the file 'tabraizSprint1Stack.template.json'. 
+
+We then deploy using:
+```
+$ cdk deploy
+```
+
+After deploying, we can check our cloud formation,s3 bucket, lambda, etc in our aws account and also test our lambda function.
