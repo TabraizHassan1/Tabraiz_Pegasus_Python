@@ -26,7 +26,12 @@ We will use cdk init to create a new Python CDK project:
 ```
 $ cdk init sample-app --language python
 ```
-### Activating the Virtualenv
+### Creating and Activating the Virtualenv
+
+To create virtualenv:
+```
+$ python3 -m venv .venv
+```
 
 To activate our virtualenv:
 ```
