@@ -24,7 +24,7 @@ $ mkdir sprint1 && cd sprint1
 
 We will use cdk init to create a new Python CDK project:
 ```
-$ cdk init sample-app --language python
+$ cdk init app --language python
 ```
 ### Creating and Activating the Virtualenv
 
